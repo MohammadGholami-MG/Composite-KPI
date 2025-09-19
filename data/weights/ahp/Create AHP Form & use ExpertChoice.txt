@@ -1,0 +1,61 @@
+Guide to Create AHP Google Form for 5 KPIs
+
+1.Create Form:
+   - Go to forms.google.com, start new form.
+   - Title: "Prioritizing Company KPIs".
+   - Description: "Help us rank 5 KPIs (e.g., sales, margin) for a composite index. Takes ~10 min. Thanks!"
+
+2.Section 1: Basic Info:
+   - Q1: Name & Role (Short answer, e.g., "John, Sales Manager").
+   - Q2: KPI Familiarity (Multiple choice: "Fully familiar", "Somewhat familiar", "Need explanation").
+
+3.Section 2: KPI Definitions:
+   - Q: Read KPI descriptions (Paragraph):
+     - Net Sales: Total revenue after deductions.
+     - Margin: Profit percentage from sales.
+     - NPS: Customer loyalty score.
+     - New Sales: % of sales from new products.
+     - Refrigerator Share: % of sales from refrigerators.
+     - Confirm: "I understand" (Multiple choice, required).
+   - Optional: Text field for questions.
+
+4.Section 3: Pairwise Comparisons:
+   - 10 questions (Linear scale, 1-9: 1=Equal, 3=Slightly more important, 5=Moderately, 7=Very, 9=Extremely).
+   - Example: "How much more important is Net Sales vs. Margin?" (1-9, with note: "E.g., choose 3 if Net Sales is 3x more important").
+   - Pairs: 
+     1. Net Sales vs. Margin
+     2. Net Sales vs. NPS
+     3. Net Sales vs. New Sales
+     4. Net Sales vs. Refrigerator Share
+     5. Margin vs. NPS
+     6. Margin vs. New Sales
+     7. Margin vs. Refrigerator Share
+     8. NPS vs. New Sales
+     9. NPS vs. Refrigerator Share
+     10. New Sales vs. Refrigerator Share
+   - Tip: Add example: "Choose 5 if one KPI is much more critical."
+
+5.Section 4: Feedback (Optional):
+   - Q: "Any comments on KPI priorities?" (Paragraph).
+   - Optional: 1 control question (e.g., reverse pair like NPS vs. Net Sales) for consistency.
+
+6.Settings:
+   - Collect email addresses: On.
+   - Responses to Google Sheets: On.
+   - Show progress bar: On.
+   - Randomize question order: Optional (reduce bias).
+
+7.Test & Share:
+   - Test with 1-2 managers (check clarity, ~10 min).
+   - Share link via email/Teams, with reminder: "Takes 10 min, due in 2 days."
+
+8.Analyze:
+   - Export responses to CSV/Sheets.
+   - Build 5x5 pairwise matrix (a_ji = 1/a_ij for reverse pairs).
+   - Use AHP code to calculate weights and Consistency Ratio (CR < 0.1 ideal).
+
+Tips:
+- Keep questions clear, use examples.
+- Use visuals (icons/stars) for scale.
+- Collect from 3-5 managers, average weights.
+- If too complex, try BWM (8 comparisons).

@@ -1,0 +1,13 @@
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Virtual environments
+.env
+*.env
+*.yml
+
+# Cached or generated files
+*.pkl
+*.h5
+*.joblib
