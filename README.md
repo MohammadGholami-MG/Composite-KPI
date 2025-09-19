@@ -135,11 +135,11 @@ LinkedIn: https://www.linkedin.com/in/mohammad-gholami-mgh22
 
 We welcome contributions! To contribute:
 
-1.Fork the repository.
-2.Create a new branch (git checkout -b feature/YourFeature).
-3.Make your changes and commit them (git commit -m 'Add YourFeature').
-4.Push to the branch (git push origin feature/YourFeature).
-5.Create a Pull Request.
+- 1.Fork the repository.
+- 2.Create a new branch (git checkout -b feature/YourFeature).
+- 3.Make your changes and commit them (git commit -m 'Add YourFeature').
+- 4.Push to the branch (git push origin feature/YourFeature).
+- 5.Create a Pull Request.
 
 ---
 
