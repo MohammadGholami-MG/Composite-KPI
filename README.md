@@ -67,6 +67,7 @@ The dataset (synthetic) covers 60 monthly records from September 2020 over a 5-y
 ## Project Structure
 
 composite-kpi/
+│
 ├── data/               
 │   ├── dummy/ 
 │   ├── normalized/  
@@ -80,6 +81,7 @@ composite-kpi/
 │       ├── critic/
 │       ├── entropy/
 │       └── pca-weights/   
+│  
 ├── src/                
 │   ├── __init__.py
 │   ├── adjustment.py       
@@ -93,9 +95,11 @@ composite-kpi/
 │   ├── Normalization.py       
 │   ├── pca_weights.py             
 │   └── Standardization.py 
+│    
 │── environment.yml 
 │── LICENSE
 └── README.md
+
 
 
 ---
