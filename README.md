@@ -4,11 +4,11 @@
 ## Overview
 Composite KPI is a data-driven project designed to calculate a comprehensive performance index using five core KPIs:
 
-1.Net Sales
-2.Margin
-3.Product Mix
-4.NPS
-5.Sales from New Products
+- 1.Net Sales
+- 2.Margin
+- 3.Product Mix
+- 4.NPS
+- 5.Sales from New Products
 
 The project leverages advanced weighting methods such as PCA (Principal Component Analysis), Entropy, and CRITIC to generate an optimized composite index.
 The dataset (synthetic) covers 60 monthly records from September 2020 over a 5-year period.
