@@ -67,40 +67,18 @@ The dataset (synthetic) covers 60 monthly records from September 2020 over a 5-y
 ## Project Structure
 
 composite-kpi/
-│
-├── data/               
-│   ├── dummy/ 
-│   ├── normalized/  
-│   ├── output/  
-│   ├── pca/        
-│   ├── preprocessing/
-│   │   ├── eda_results/  
-│   ├── satandardization/        
-│   └── weights/
-│       ├── ahp/
-│       ├── critic/
-│       ├── entropy/
-│       └── pca-weights/   
-│  
-├── src/                
-│   ├── __init__.py
-│   ├── adjustment.py       
-│   ├── composite-index.py
-│   ├── correlation.py       
-│   ├── cpi_generator.py
-│   ├── critic.py       
-│   ├── data_generator.py
-│   ├── eda.py 
-│   ├── entropy.py       
-│   ├── Normalization.py       
-│   ├── pca_weights.py             
-│   └── Standardization.py 
-│    
-│── environment.yml 
-│── LICENSE
-└── README.md
-
-
+├── data/                  # Datasets and outputs
+│   ├── dummy/             # Synthetic input data
+│   ├── normalized/        # Normalized KPI data
+│   ├── output/            # Final composite index and plots
+│   └── weights/           # Calculated weights (PCA, Entropy, CRITIC)
+│   └── ...                # Other
+├── src/                   # Source code for calculations
+│   ├── composite-index.py # Main script for index generation
+│   └── ...                # Other utility scripts
+├── environment.yml        # Conda environment configuration
+├── LICENSE                # MIT License
+└── README.md              # Project documentation
 
 ---
 
